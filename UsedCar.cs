@@ -22,7 +22,7 @@ namespace Car_Lot_Group_Lab
         //methods
         public override string ToString()
         {
-            return $"{base.ToString()} (Used) {Mileage}";
+            return $"{base.ToString()} (Used) {Mileage} miles";
         }
     }
 }

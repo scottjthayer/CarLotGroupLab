@@ -30,7 +30,7 @@ namespace Car_Lot_Group_Lab
         //methods
         public override string ToString()
         {
-            return $"{Make}\t{Model}\t{Year}\t${Price}";
+            return string.Format("{0, -15}\t{1, -15}\t{2, -15}\t${3, -15}", Make, Model, Year, Price);
         }
 
     }
